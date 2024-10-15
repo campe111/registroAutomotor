@@ -51,18 +51,6 @@ export class RegistroAutomotor {
             this.motos.splice(index, 1);
         }
     }
-
-    // public getAutos(): Auto[] {
-    //     return this.autos;
-    // }
-
-    // public getMotos(): Moto[] {
-    //     return this.motos;
-    // }
-
-    // public getCamiones(): Camion[] {
-    //     return this.camiones;
-    // }
     private getAutosInfo(): string {
         if (this.autos.length === 0) return "No hay autos registrados.";
         let info = "";
